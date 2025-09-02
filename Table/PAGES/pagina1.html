@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" type="text/css" href="../Table/CSS/style.css" media="screen" />
+    
+</head>
+<body>
+    <header>Table Aula 02/29 Usando Semântica</header>
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+    </style>
+
+    <table>
+        <caption>Tabela de Vendas</caption>
+        <!-- Cabeçalho da Tabela -->
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Conteúdo da Tabela -->
+            <tr>
+                <td>Caneta</td>
+                <td>5,00</td>
+                <td>2</td>
+                <td>10,00</td>
+            </tr>
+            <tr>
+                <td>Lapis</td>
+                <td>2,00</td>
+                <td>3</td>
+                <td>6,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- Rodapé da Tabela -->
+            <tr>
+                <td colspan="3">Total Geral</td>
+                <td>16,00</td>
+        </tfoot>
+    </table>
+</body>

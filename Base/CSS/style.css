@@ -1,0 +1,63 @@
+.div1{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 160px;
+    width: 300px;
+}
+
+.div2{
+    background-color: lightgreen;
+    padding: 20px;.aulaTable{
+    align-items: center;
+    background-color: aquamarine;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+
+
+    margin: 10px;
+    border-radius: 5px;
+    height: 160px;
+    width: 300px;
+}
+
+.div3{
+    background-color: lightsalmon;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 160px;
+    width: 300px;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
