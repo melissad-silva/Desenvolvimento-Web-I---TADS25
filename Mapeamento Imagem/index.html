@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Mapeadas</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen" />
+    
+</head>
+<body>
+    <header>
+        <h1>Mapa do Brasil</h1>
+    </header>
+
+    <img src="../Mapeamento Imagem/IMG/mapa_brasil3.jpg" alt="mapa do Brasil" usemap="#mapa_brasil" border="0">
+
+    <map name="mapa_brasil">
+        <area shape="circle" coords="314, 376, 20" href="#sp" alt="São Paulo" id="EstadoSp">
+        <area shape="circle" coords="279, 476, 30" href="#rs" alt="Rio Grande do Sul" id="EstadoRs">
+        <area shape="circle" coords="400, 325, 30" href="#mg" alt="Minas Gerais" id="EstadoMg">
+        <area shape="circle" coords="420, 379, 10" href="#rj" alt="Rio de Janeiro" id="EstadoRj">
+        <area shape="circle" coords="301 , 407, 30" href="#pr" alt="Paraná" id="EstadoPr">
+        <area shape="poly" coords="322, 240, 352, 159, 371, 242" href="#to" alt="Tocantins" id="EstadoTo">
+        <area shape="rect" coords="198, 229, 300, 281" href="#mt" alt="Mato Grosso" id="EstadoMt">
+    </map>
+    
+    <div>
+        <p id="sp">São Paulo</p>
+    </div>
+    <div>
+        <p id="rs">Rio Grande do Sul</p>
+    </div>
+    <div>
+        <p id="mg">Minas Gerais</p>
+    </div>
+    <div>
+        <p id="rj">Rio de Janeiro</p>
+    </div>
+    <div>
+        <p id="pr">Paraná</p>
+    </div>
+    <div>
+        <p id="to">Tocantins</p>
+    </div>
+    <div>
+        <p id="mt">Mato Grosso</p>
+    </div>
+    
+
+    
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
