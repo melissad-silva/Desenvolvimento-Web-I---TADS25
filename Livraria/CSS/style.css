@@ -1,5 +1,190 @@
-h1{
-    align-items: center;
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Topo */
+#topo {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
     text-align: center;
+}
+#topo h1 {
     color: red;
+    margin-bottom: 10px;
+}
+#topo h2 {
+    font-size: 1.2rem;
+}
+
+/* Menu */
+#menu {
+    background: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+#menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+#menu ul li a:hover {
+    color: #ffd700; /* Dourado */
+}
+
+/* Destaques */
+.destaques {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.destaques h2 {
+    color: blue;
+    margin-bottom: 15px;
+}
+.destaques ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.destaques ul li {
+    text-align: center;
+}
+.destaques img {
+    display: block;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.destaques b {
+    display: block;
+    margin-top: 8px;
+}
+
+/* Sobre */
+.sobre {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sobre h1 {
+    margin-bottom: 15px;
+}
+.sobre h3 {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Produtos (Tabela) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    background: #333;
+    color: #fff;
+}
+table tfoot td {
+    text-align: center;
+    font-style: italic;
+    background: #f1f1f1;
+}
+
+/* Formulário de Contato */
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+legend {
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form textarea {
+    height: 100px;
+}
+form input[type="submit"],
+form input[type="reset"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background: #555;
+}
+
+/* Rodapé */
+#rodape {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+#rodape ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#rodape ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+#rodape ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#rodape ul li a:hover {
+    color: #ffd700;
 }
