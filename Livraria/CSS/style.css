@@ -1,32 +1,6 @@
-/* Reset simples */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
-    max-width: 1000px;
-    margin: auto;
-}
-
-/* Topo */
-#topo {
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 2px solid #ccc;
+#topo h1{
     text-align: center;
-}
-#topo h1 {
     color: red;
-    margin-bottom: 10px;
-}
-#topo h2 {
-    font-size: 1.2rem;
 }
 
 /* Menu */
