@@ -4,3 +4,27 @@ body{
     background-repeat: repeat;
 
 }
+
+.teste:hover{
+    background-color: lightblue;
+
+}
+
+.p1::first-letter{
+    font-size: 200%;
+    color: red;
+    font-weight: bold;
+}
+
+.p2::first-line{
+    font-size: 150%;
+    color: blue;
+    font-weight: bold;
+}
+
+.texto1{
+    color: palevioletred;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: large;
+}
