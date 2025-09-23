@@ -28,3 +28,9 @@ body{
     font-family: cursive;
     font-size: large;
 }
+
+.lista{
+    /*list-style-image: url("../../PropriedadesCSS/IMG/image3.png")*/
+    list-style-type: square;
+    list-style-position: inside;
+}
