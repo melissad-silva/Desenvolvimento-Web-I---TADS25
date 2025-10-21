@@ -1,0 +1,82 @@
+/*flexbox frogyy para particar os conceitos*/ 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    background-color: lightgray;
+    color: black;
+    min-height: 100hv;
+}
+
+header{
+    background-color: rgb(65, 65, 234);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul.menu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+main{
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer{
+    background-color:  rgb(65, 65, 234);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Desktop*/
+@media (max-width: 651px) { /*768px*/
+    body {
+        background-color: gray;
+    }
+    nav ul.menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 370px) {  /*480px*/
+    body {
+        background-color: rgb(79, 78, 78);
+        text-align: center;
+    }
+
+    header, h1 {
+        font-size: 1.5em;
+    }
+    header, h2 {
+        font-size: 1.2em;
+    }
+    menu ul.menu {
+        padding: 0;
+    }
+}
